@@ -62,7 +62,6 @@ layout0 = [
     [sg.LB(list, size=(85, 5), default_values=None, key="-LB-", enable_events=False, bind_return_key=False, select_mode=None)]
 ]
 layout=[
-    [sg.T("注意，您正在使用本程序的预发布版本，部分功能可能无法正常使用。", text_color="red")],
     [sg.B("KILL(Space)", key="-KILL-", button_color="red",tooltip="KILL：杀死极域并使其不能自启动；停止：停止杀死极域"), sg.B("恢复(Enter)", key="-RESTART-", button_color="green",tooltip="恢复极域运行", bind_return_key=True), sg.B("清空输出", key="-CLEAN-",tooltip="清空输出列表的全部内容"), sg.B("开启置顶", key="-TOP-",tooltip="窗口将强制置顶"), sg.B("关闭置顶", key="-UNTOP-",tooltip="窗口将不再强制置顶"), sg.B("退出(Alt+F4)", key="-EXIT-", button_color="green", tooltip="退出程序"), sg.T(f"{version}"+" By Lv3R", key="-INFO-", enable_events=True, text_color="blue", tooltip="更多信息") , sg.In("", key="-FILEPATH-", visible=False)],[sg.Fr(title="输出", layout=layout0)],
     [sg.T("免责声明：使用本程序所导致的任何后果皆由使用者自行承担，开发者不负任何责任。"), sg.FileBrowse("定位",key="-POSITION-", file_types=(("EXE", "StudentMain.exe"), ), target="-FILEPATH-", tooltip="手动定位极域")]
 ]
