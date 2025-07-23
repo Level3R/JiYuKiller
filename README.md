@@ -1,3 +1,4 @@
+![JiYuKiller.ico](https://github.com/Level3R/JiYuKiller/blob/main/JiYuKiller.ico "JiYuKiller")
 # **JiYuKiller**
 **JiYuKiller** 是一个能帮你在信息课上畅玩电脑的程序。
 ## 适用系统及版本
