@@ -9,6 +9,11 @@
 - 运行 **JiYuKiller.exe**;
 - 点击“我已知晓且同意该声明”按钮;
 - 根据各按钮上的悬浮提示运行功能。
+## 常见问题
+- Q：学生机被限制插入 U盘/硬盘 ，怎么运行 **JiYuKiller** 呢?
+- A：请参考 **[JiYuTrainer](https://github.com/imengyu/JiYuTrainer/)** 的 **一些提示** 。
+- Q：学生机的 **PowerShell** 也被删掉了怎么办？
+- A：可在 **[这里](https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)** 下载 **PowerShell** 。我一般会下载 **ZIP** 文件再将 **pwsh.exe** 添加到学生机 **高级系统设置** 的 **环境变量** 中。
 ## 开发初衷
 - 我们的信息老师会在上课时承诺给我们 5 ~ 10 分钟的“自由”上机时间，但几乎每次都会拖到下课或者让我们做练习（在问卷星上答题）。为了争得我们应有的时间，遂开发本程序。
 - 什么？你问我为什么不用 **[JiYuTrainer](https://github.com/imengyu/JiYuTrainer/)** ？因为它的远程注入等功能，只要一启动它就会被未知程序检测到并“蓝屏”（不是那个 **[蓝屏](https://support.microsoft.com/zh-cn/windows/%E8%A7%A3%E5%86%B3-windows-%E4%B8%AD%E7%9A%84%E8%93%9D%E5%B1%8F%E9%94%99%E8%AF%AF-60b01860-58f2-be66-7516-5c45a66ae3c6)** ）且无法使用（除非重启）。
