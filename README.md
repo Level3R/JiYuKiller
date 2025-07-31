@@ -12,7 +12,7 @@
 - 根据各按钮上的悬浮提示运行功能。
 ## 常见问题
 - Q：学生机被限制插入 U盘/硬盘 ，怎么运行 **JiYuKiller** 呢?
-- A：请参考 **[JiYuTrainer](https://github.com/imengyu/JiYuTrainer/)** 的 **一些提示** 。
+- A：请参考 **[JiYuTrainer](https://github.com/imengyu/JiYuTrainer/)** 的 **一些提示**。
 - Q：学生机的 **PowerShell** 也被删掉了怎么办？
 - A：可在 **[这里](https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)** 下载 **PowerShell** 。我一般会下载 **ZIP** 文件再将 **pwsh.exe** 添加到学生机 **高级系统设置** 的 **环境变量** 中。
 ## 开发初衷
@@ -21,6 +21,6 @@
 ## 其他
 - 欢迎各位大佬参与到 **JiYuKiller** 的开发当中。
 ## 许可证
-- 目前本项目基于 **[MIT协议](https://mit-license.org/)** 开源（致敬 **[imengyu](https://github.com/imengyu/)** 大佬的 **[JiYuTrainer](https://github.com/imengyu/JiYuTrainer/)**）。
+- 目前本项目基于 **[MIT协议](https://mit-license.org/)** 开源（致敬 **[imengyu](https://github.com/imengyu/)** 大佬的 **JiYuTrainer**）。
 
 P.S.这是我发布的第一个开源项目，很多东西还不明白，如有不足还请指出。喜欢的话，请给个 **Star** 吧。
